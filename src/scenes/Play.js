@@ -104,7 +104,6 @@ class Play extends Phaser.Scene {
           return false;
       }
   }
-
   shipExplode(ship) {
     // temporarily hide ship
     ship.alpha = 0;
